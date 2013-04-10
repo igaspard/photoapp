@@ -9,6 +9,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" />
+	<Button
+        android:id="@+id/buttonGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/button_grid" 
+        android:onClick="ShowGrid" />
+
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
@@ -16,6 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:contentDescription="@string/imageview"
-        android:src="@android:drawable/ic_menu_camera" />
+        android:src="@android:drawable/ic_menu_camera" 
+        android:onClick="sendMessage" />    
 
 </RelativeLayout>
