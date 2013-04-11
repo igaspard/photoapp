@@ -23,15 +23,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.simplephoto.DisplayMessageActivity"
-            android:label="@string/title_activity_display_message" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.simplephoto.MainActivity" />
-        </activity>
-        <activity
-            android:name="com.example.simplephoto.PhotoGridActivity"
-            android:label="@string/title_activity_photo_grid" >
+            android:name="com.example.simplephoto.ImageViewActivity"
+            android:label="@string/title_activity_image_view" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.simplephoto.MainActivity" />

@@ -10,5 +10,6 @@
     <string name="button_grid">Grid</string>
     <string name="title_activity_display_message">DisplayMessageActivity</string>
     <string name="title_activity_photo_grid">PhotoGridActivity</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
 
 </resources>
